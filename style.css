@@ -379,7 +379,6 @@ label {
 
 #enviar_button{
     position:relative;
-    box-sizing: border-box;
     display: inline-block;
     padding: 3px;
     border-radius: 3px;
