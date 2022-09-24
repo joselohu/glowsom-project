@@ -106,7 +106,7 @@ section{
     background-color:#b8cff0;
     color:white;
     padding: 4%;
-    font-size: 17px;    
+    font-size: 17px;  
 
 }
 
@@ -123,6 +123,15 @@ section p{
     font-size: 30px;
     color: rgb(255, 255, 255);
 }
+section input{
+    width: 100%;
+    display: flex;
+    justify-items: center;
+
+}
+
+
+
 
 @media screen and (max-width:1100px){
     nav, .row{
@@ -348,6 +357,40 @@ section p{
         grid-template-rows: 50px 50px 50px 50px;
         grid-gap: 1rem;
     }    
+}
+
+label {
+    color: white;
+    font-size: 15px;
+}
+
+input,
+label {
+    padding-left: 10px;
+    border-radius: 8px;
+    margin: .4rem 0;
+}
+
+#email{
+    position: relative;
+    display: inline-block;
+    border: #39628a solid 2px;
+}
+
+#enviar_button{
+    position:relative;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 3px;
+    border-radius: 3px;
+    border: #39628a solid 2px;
+    background-color: #39628a;
+    color: white;
+    font-weight: bold;
+}
+#enviar_button:hover{
+    background-color: #265aa2;
+
 }
 
 
