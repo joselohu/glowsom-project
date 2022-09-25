@@ -73,6 +73,7 @@ li, li a:hover{
 .row{
     display:flex;
     flex-wrap:wrap;
+    text-align: center;
 }
 
 #skin_photo{
@@ -360,7 +361,8 @@ section input{
 
 label {
     color: white;
-    font-size: 15px;
+    font-size: 18px;
+    font-family: sans-serif;
 }
 
 input,
@@ -371,18 +373,25 @@ label {
 }
 
 #email{
-    position: relative;
-    display: inline-block;
-    border: #39628a solid 2px;
+
+    margin: auto;
+    height: 30px;
+    width: 200px;
+    display: block;
+    border: #5D97D1 solid 1px;
 }
 
 #enviar_button{
-    position:relative;
-    display: inline-block;
+    height: 30px;
+    width: 100px;
+    margin: auto;
     padding: 3px;
     border-radius: 3px;
-    border: #39628a solid 2px;
-    background-color: #39628a;
+    border: #fff solid 1px;
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: center;
+    background-color: #5D97D1;
     color: white;
     font-weight: bold;
 }
